@@ -1,0 +1,243 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+  }
+  /* Navbar styling */
+nav {
+    background-color: #8d06f5;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end; /* Align all links to the right */
+    align-items: center;
+    gap: 1rem; /* Space between links */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #2d0b40;
+    border-radius: 5px;
+  }
+  
+  /* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Navbar styling */
+  nav {
+    background-color: #8d06f5;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end; /* Align all links to the right */
+    align-items: center;
+    gap: 1rem; /* Space between links */
+  }
+  nav h3 {
+    color: #2d0b40;
+    margin-right: auto; /* Aligns the h3 to the left */
+    text-align: left;
+}
+
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #2d0b40;
+    border-radius: 5px;
+  }
+  
+  /* Home Page styling */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Content Section: Image on Left, Text on Right */
+  .home-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Image Section */
+  .image-section img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Section on the Right */
+  .text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .about-section,
+  .info-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2,
+  .info-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-section p,
+  .info-section p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Create 3 equal-width columns */
+    gap: 1rem;  /* Adds space between items */
+    grid-auto-rows: auto;  /* Automatically adjust row height based on content */
+  }
+  .product-list h1{
+    text-align:center;
+  }
+  
+  .product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+  }
+  
+  .product-info h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .product-info span {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .product-info button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-info button:hover {
+    background-color: #218838;
+  }
+  
+  /* Cart Page */
+  .cart {
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .cart h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cart-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item span {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 2rem;
+  }
+  
